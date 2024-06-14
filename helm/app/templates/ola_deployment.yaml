@@ -13,6 +13,6 @@ spec:
     type: ClusterIP
   env:
     - name: WLP_LOGGING_MESSAGE_FORMAT
-      value: "json"
+      value: "simple"
     - name: WLP_LOGGING_MESSAGE_SOURCE
       value: "message,trace,accessLog,ffdc,audit"
