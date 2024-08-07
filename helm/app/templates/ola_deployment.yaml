@@ -9,6 +9,8 @@ metadata:
 spec:
   applicationImage: docker.io/dguinan/sample-metrics:latest
   expose: true
+  serviceability:
+    size: 2Gi  
   service:
     type: ClusterIP
   env:
